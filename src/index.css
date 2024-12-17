@@ -1,0 +1,74 @@
+.custom-selection-panel {
+  position: absolute; /* Fixes the position */
+  top: 5px; /* Adjust to fit under the checkbox header */
+  left: 50px; /* Adds space to the left */
+  z-index: 10; /* Ensures it stays on top of table */
+  background-color: #ffffff; /* White background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 10px;
+  width: 200px; /* Fixed width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-selection-panel input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-selection-panel button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-selection-panel button:hover {
+  background-color: #0056b3;
+}
+.header-with-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-with-chevron .pi {
+  cursor: pointer;
+}
+.header-with-checkbox-chevron {
+  display: flex;
+  align-items: center;
+}
+
+.header-with-checkbox-chevron .pi {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.custom-selection-panel {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+
+.custom-selection-panel h4 {
+  margin-bottom: 10px;
+}
+
+.custom-selection-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-selection-panel li {
+  margin-bottom: 5px;
+}
